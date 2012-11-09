@@ -43,10 +43,12 @@ public class BinarySearch {
 
         BinarySearch objBinarySearch = new BinarySearch();
 
-        //System.out.println("");
 
         int[] array = {1, 2, 3, 4, 5, 8, 9, 10};
         boolean result = objBinarySearch.binarySearch(array, 5);
+
+
+        System.out.println("Found? " + result);
 
     }
 }
